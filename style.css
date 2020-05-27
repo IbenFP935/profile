@@ -1,0 +1,87 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  background-image: url("https://media.giphy.com/media/11lxCeKo6cHkJy/giphy.gif");
+  background-repeat: repeat;
+  background-size: contain;
+  background-color: rgb(238, 245, 219);
+
+  height: 100px;
+  padding: 100px;
+  margin: 0;
+}
+
+#profile_pic {
+  border-radius: 25px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 25px;
+  background-color: rgb(51, 55, 69);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: rgb(230, 52, 98);
+}
+
+h2, p {
+  font-family: 'Nanum Gothic', sans-serif;
+  color: rgb(254, 95, 85);
+}
+
+a {
+  color: rgb(199, 239, 207);
+}
+
+a:hover {
+  color: rgb(238, 245, 219);
+}
+
+.boton {
+  border-radius: 10px;
+  background-color: rgb(254, 95, 85);
+  padding: 8px 24px;
+  text-decoration: none;
+}
+
+.boton:hover {
+  color: rgb(254, 95, 85);
+  background-color: rgb(238, 245, 219);
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
